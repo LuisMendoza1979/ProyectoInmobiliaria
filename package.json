@@ -1,0 +1,20 @@
+{
+  "name": "proyectoinmobiliaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMendoza1979/ProyectoInmobiliaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMendoza1979/ProyectoInmobiliaria/issues"
+  },
+  "homepage": "https://github.com/LuisMendoza1979/ProyectoInmobiliaria#readme"
+}
