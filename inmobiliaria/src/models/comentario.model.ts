@@ -1,6 +1,8 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, belongsTo} from '@loopback/repository';
+import {Asesor} from './asesor.model';
+import {Cliente} from './cliente.model';
 
-@model({settings: {strict: false}})
+@model({settings: {strict: true}})
 export class Comentario extends Entity {
   @property({
     type: 'number',
@@ -21,6 +23,11 @@ export class Comentario extends Entity {
   })
   Com_Descripcion: string;
 
+  @belongsTo(() => Asesor, {name: 'comentario_de'})
+  Ase_Id: number;
+
+  @belongsTo(() => Cliente, {name: 'comentario_para'})
+  Cli_Id: number;
   // Define well-known properties here
 
   // Indexer property to allow additional data

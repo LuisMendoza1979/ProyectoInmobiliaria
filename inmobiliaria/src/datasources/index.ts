@@ -1,1 +1,1 @@
-export * from './datamysql.datasource';
+export * from './data.datasource';
