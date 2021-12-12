@@ -53,7 +53,7 @@ export class Asesor extends Entity {
     type: 'string',
     required: true,
   })
-  Ase_Direccion: string;
+  Ase_Clave: string;
 
   @property({
     type: 'string',

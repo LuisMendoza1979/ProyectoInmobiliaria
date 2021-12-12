@@ -45,7 +45,7 @@ export class Cliente extends Entity {
     type: 'string',
     required: true,
   })
-  Cli_Direccion: string;
+  Cli_Clave: string;
 
   @hasMany(() => Solicitud, {keyTo: 'Cli_Id'})
   solicitudes_cliente: Solicitud[];

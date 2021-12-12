@@ -37,7 +37,7 @@ export class Administrador extends Entity {
     type: 'string',
     required: true,
   })
-  Adm_Direccion: string;
+  Adm_Clave: string;
 
   @property({
     type: 'string',

@@ -5,3 +5,6 @@ export * from './cliente.model';
 export * from './solicitud.model';
 export * from './inmuebles.model';
 export * from './comentario.model';
+export * from './credenciales.model';
+export * from './usuario.model';
+export * from './rol.model';

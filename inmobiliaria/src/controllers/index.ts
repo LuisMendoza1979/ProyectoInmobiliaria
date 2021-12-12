@@ -17,3 +17,7 @@ export * from './cliente-solicitud.controller';
 export * from './asesor-comentario.controller';
 export * from './cliente-comentario.controller';
 export * from './asesor-inmuebles.controller';
+export * from './usuario-rol.controller';
+export * from './rol-usuario.controller';
+export * from './usuario.controller';
+export * from './rol.controller';

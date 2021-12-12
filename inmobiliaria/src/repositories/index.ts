@@ -5,3 +5,5 @@ export * from './comentario.repository';
 export * from './contrato.repository';
 export * from './inmuebles.repository';
 export * from './solicitud.repository';
+export * from './rol.repository';
+export * from './usuario.repository';
